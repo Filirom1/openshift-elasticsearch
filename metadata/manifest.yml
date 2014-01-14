@@ -47,6 +47,8 @@ Provides:
   - elasticsearch-0.90
   - elasticsearch-0.90.9
 Publishes:
+  get-internal-uri:
+    Type: "NET_TCP:http"
   publish-es-node:
     Type: "NET_TCP:es-cluster"
   publish-http-url:
